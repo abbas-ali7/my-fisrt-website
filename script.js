@@ -3,7 +3,8 @@ class ShatterEffect {
     this.wrapper = wrapper;
     this.img = wrapper.querySelector('img');
     this.canvas = wrapper.querySelector('canvas');
-    this.ctx = this.canvas.getContext('2d');
+    this.ctx = this.canvas.getContext('2d', { willReadFrequently: true });
+
 
     this.pSize = 4;
     this.particles = [];
