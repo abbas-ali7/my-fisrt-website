@@ -5,7 +5,7 @@ html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #eee;
   line-height: 1.6;
-  background: url('images/shadowofthetomb.jpg') no-repeat center center fixed;
+  background: url('shadowofthetomb.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
